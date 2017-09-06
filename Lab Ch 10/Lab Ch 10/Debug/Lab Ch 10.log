@@ -1,0 +1,5 @@
+﻿  Lab Ch 10.cpp
+c:\users\chris mang\documents\visual studio 2015\projects\lab ch 10\lab ch 10\lab ch 10.cpp(105): warning C4805: '==': unsafe mix of type 'char' and type 'bool' in operation
+c:\users\chris mang\documents\visual studio 2015\projects\lab ch 10\lab ch 10\lab ch 10.cpp(110): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+  Lab Ch 10.vcxproj -> C:\Users\Chris Mang\documents\visual studio 2015\Projects\Lab Ch 10\Debug\Lab Ch 10.exe
+  Lab Ch 10.vcxproj -> C:\Users\Chris Mang\documents\visual studio 2015\Projects\Lab Ch 10\Debug\Lab Ch 10.pdb (Full PDB)
