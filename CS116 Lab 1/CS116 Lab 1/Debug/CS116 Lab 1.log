@@ -1,4 +1,4 @@
 ﻿  CS116Lab1.cpp
-c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 1\cs116 lab 1\cs116lab1.cpp(155): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 1\cs116 lab 1\cs116lab1.cpp(219): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   CS116 Lab 1.vcxproj -> C:\Users\Chris Mang\Documents\Visual Studio 2017\Projects\CS116 Lab 1\Debug\CS116 Lab 1.exe
   CS116 Lab 1.vcxproj -> C:\Users\Chris Mang\Documents\Visual Studio 2017\Projects\CS116 Lab 1\Debug\CS116 Lab 1.pdb (Partial PDB)
