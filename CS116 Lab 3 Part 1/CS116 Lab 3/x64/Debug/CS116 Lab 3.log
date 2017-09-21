@@ -1,0 +1,4 @@
+﻿  CS116 Lab 3.cpp
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 3 part 1\cs116 lab 3\cs116 lab 3.cpp(31): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  CS116 Lab 3.vcxproj -> C:\Users\Chris Mang\Documents\Visual Studio 2017\Projects\CS116 Lab 3 Part 1\x64\Debug\CS116 Lab 3 Part 1.exe
+  CS116 Lab 3.vcxproj -> C:\Users\Chris Mang\Documents\Visual Studio 2017\Projects\CS116 Lab 3 Part 1\x64\Debug\CS116 Lab 3 Part 1.pdb (Partial PDB)
