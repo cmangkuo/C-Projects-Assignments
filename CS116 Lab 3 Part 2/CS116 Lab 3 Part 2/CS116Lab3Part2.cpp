@@ -1,5 +1,5 @@
 // CS116Lab3Part2.cpp : Defines the entry point for the console application.
-//
+// Author: Chris Mangkuorahardjo
 
 #include "stdafx.h"
 #include <iomanip>
@@ -67,7 +67,7 @@ int main()
 		cin.ignore();
 		cout << "----------------------------------------------------------------" << endl;
 
-		// Break out of loop if user does not have another employee
+		// Break out of loop if user wants to quit
 		if (choice == 2)
 		{
 			break;
@@ -76,7 +76,6 @@ int main()
 	
 	
 	cout << "Press enter to exit program." << endl;
-	cin.ignore();
 	cin.ignore();
     return 0;
 }

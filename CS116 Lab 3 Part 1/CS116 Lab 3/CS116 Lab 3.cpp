@@ -45,6 +45,7 @@ int main()
 {
 	int choice;
 	HealthProfile test;
+	// Loops until user decides to quit
 	while (1)
 	{
 		test.setName();
@@ -54,6 +55,7 @@ int main()
 		test.printProfile();
 		cout << "Enter another? 1-Yes 2-No" << endl;
 		cin >> choice;
+		// Input validation
 		while ((!choice) || ((choice < 1) || (choice > 2)))
 		{
 			if (cin.fail())
@@ -82,6 +84,8 @@ int main()
 
 
 // Class Functions
+
+// Sets name
 void HealthProfile::setName()
 {
 	cout << "Enter name: ";
@@ -112,6 +116,7 @@ void HealthProfile::setAge()
 	cout << "--------------------------------------------------------" << endl;
 }
 
+// Sets height
 void HealthProfile::setHeight()
 {
 	// Initialize local variables
@@ -119,9 +124,12 @@ void HealthProfile::setHeight()
 	// Resets class variable each time the function is called
 	height = 0;
 
+	// Get height in feet
 	cout << "Enter height in feet: ";
 	cin >> feet;
 	cin.ignore();
+
+	// Input validation
 	while ((!feet) || (feet < 0))
 	{
 		if (feet == 0)
@@ -138,10 +146,12 @@ void HealthProfile::setHeight()
 		cin.ignore();
 	}
 	
-
+	// Get remaining height in inches
 	cout << "Enter height in inches: ";
 	cin >> inches;
 	cin.ignore();
+
+	// Input validation
 	while (1)
 	{
 		if (cin.fail())
@@ -163,11 +173,11 @@ void HealthProfile::setHeight()
 		
 	}
 
-	
+	// Calculate total height
 	height = feet*12 + inches;
 	cout << "--------------------------------------------------------" << endl;
 
-	// Resets function if total height is negative or zero
+	// Resets function if total height is garbage (negative or zero)
 	if (height <= 0)
 	{
 		cout << "Total height is an invalid value, please re-enter." << endl;
@@ -177,10 +187,13 @@ void HealthProfile::setHeight()
 
 }
 
+// Sets weight
 void HealthProfile::setWeight()
 {
 	cout << "Enter weight in pounds: ";
 	cin >> weight;
+
+	// Input validation
 	while ((!weight) || (weight < 0))
 	{
 		if (cin.fail())
@@ -195,12 +208,14 @@ void HealthProfile::setWeight()
 	cout << "--------------------------------------------------------" << endl;
 }
 
+// Calculate BMI and return it
 double HealthProfile::getBMI()
 {
 	BMI = 703 * weight / pow(height, 2);
 	return BMI;
 }
-// Returns a string which is the BMI category determined by the BMI value
+
+// Determine BMI category and return it
 string HealthProfile::getCategory()
 {
 	if (BMI > 30)
@@ -222,6 +237,7 @@ string HealthProfile::getCategory()
 	return BMIcategory;
 }
 
+// Print out the health profile
 void HealthProfile::printProfile()
 {
 	
