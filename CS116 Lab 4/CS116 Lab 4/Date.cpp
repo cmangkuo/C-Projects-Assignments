@@ -10,7 +10,7 @@ Date::Date()
 	month = 1;
 	day = 1;
 	year = 2000;
-	cout << "Date sucessfully set as 01/01/2000." << endl;
+	cout << "Date successfully set as 01/01/2000." << endl;
 }
 
 // Check number of days in the month

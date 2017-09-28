@@ -1,5 +1,5 @@
 // CS116Lab4.cpp : Defines the entry point for the console application.
-//
+// Author: Chris Mangkuorahardjo
 
 #include "stdafx.h"
 #include "Date.h"
