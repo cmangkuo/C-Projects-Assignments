@@ -9,15 +9,16 @@ private:
 	string MasterName;
 public:
 	// Default Constructor
-	Novice()
-	{
-		Name = "John Doe";
-		Health = 100;
-		Experience = 10;
-		MasterName = "None";
-	}
+	Novice();
+
 	// Parameterized Constructor
-	Novice(string, int, int, string);
+	Novice(string, string);
 	
+	// Class Behaviors
+	void print();
+	int getAttack();
+	void updateHP();
+	void updateXP();
+	void printInfo();
 };
 

@@ -4,9 +4,10 @@
 
 BaseClass::BaseClass()
 {
+	Name = "John Doe";
+	MaxHealth = currentHealth = 100;
+	Experience = 10;
 }
 
 
-BaseClass::~BaseClass()
-{
-}
+

@@ -15,7 +15,13 @@ public:
 	Wizard();
 
 	// Parameterized Constructor
-	Wizard(string, int, int, string, int, string);
-	~Wizard();
+	Wizard(string, string, int, string);
+	
+	// Class Behaviours
+	void print();
+	int getAttack();
+	void updateHP();
+	void updateXP();
+	void printInfo();
 };
 

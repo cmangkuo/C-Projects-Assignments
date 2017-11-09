@@ -12,7 +12,12 @@ public:
 	// Default Constructor
 	Master();
 	// Parameterized Constructor
-	Master(string, int, int, string, int);
-	~Master();
+	Master(string, string, int);
+	// Class Behaviours
+	void print();
+	int getAttack();
+	void updateHP();
+	void updateXP();
+	void printInfo();
 };
 
