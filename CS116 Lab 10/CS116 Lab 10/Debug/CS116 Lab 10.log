@@ -1,0 +1,35 @@
+﻿  CS116Lab10.cpp
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\linkedlist.h(220): error C2988: unrecognizable template declaration/definition
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\linkedlist.h(220): error C2143: syntax error: missing ';' before '*'
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\linkedlist.h(220): error C2065: 'T': undeclared identifier
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\linkedlist.h(220): error C2923: 'LinkedList': 'T' is not a valid template type argument for parameter 'T'
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\linkedlist.h(221): error C2988: unrecognizable template declaration/definition
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\linkedlist.h(221): error C2059: syntax error: '<end Parse>'
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\linkedlist.h(221): error C2143: syntax error: missing ';' before '{'
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\linkedlist.h(221): error C2447: '{': missing function header (old-style formal list?)
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(59): error C2228: left of '.getQuantity' must have class/struct/union
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(59): note: type is 'LinkedList<InvoiceItem>::Node *'
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(59): note: did you intend to use '->' instead?
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(60): error C2228: left of '.getName' must have class/struct/union
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(60): note: type is 'LinkedList<InvoiceItem>::Node *'
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(60): note: did you intend to use '->' instead?
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(69): error C2228: left of '.setQuantity' must have class/struct/union
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(69): note: type is 'LinkedList<InvoiceItem>::Node *'
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(69): note: did you intend to use '->' instead?
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(75): error C2228: left of '.getName' must have class/struct/union
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(75): note: type is 'LinkedList<InvoiceItem>::Node *'
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(75): note: did you intend to use '->' instead?
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(86): error C2228: left of '.getName' must have class/struct/union
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(86): note: type is 'LinkedList<InvoiceItem>::Node *'
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(86): note: did you intend to use '->' instead?
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(86): error C2228: left of '.getPrice' must have class/struct/union
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(86): note: type is 'LinkedList<InvoiceItem>::Node *'
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(86): note: did you intend to use '->' instead?
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(86): error C2440: '<function-style-cast>': cannot convert from 'int' to 'InvoiceItem'
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(86): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(93): error C2228: left of '.setQuantity' must have class/struct/union
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(93): note: type is 'LinkedList<InvoiceItem>::Node *'
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(93): note: did you intend to use '->' instead?
+c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(93): error C2228: left of '.getQuantity' must have class/struct/union
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(93): note: type is 'LinkedList<InvoiceItem>::Node *'
+  c:\users\chris mang\documents\visual studio 2017\projects\cs116 lab 10\cs116 lab 10\cs116lab10.cpp(93): note: did you intend to use '->' instead?
